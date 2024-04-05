@@ -1,0 +1,318 @@
+.container {
+    gap: 200px;
+
+}
+
+.navbar a {
+    margin: 20px;
+}
+
+.navbar button {
+    color: skyblue;
+    border: 1px solid skyblue;
+    padding: 2px 8px;
+    margin-right: 40px;
+}
+
+.carousel {
+    margin: 0px 50px;
+}
+
+.carousel img {
+    height: 500px;
+    width: 100%;
+}
+
+.carousel h1 {
+    margin-top: -300px;
+    padding: 20px;
+}
+
+.carousel p {
+    padding: 20px;
+}
+
+.carousel button {
+    margin-bottom: 50px;
+    background-color: skyblue;
+    color: white;
+    font-size: larger;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 30px;
+}
+
+.background {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-left: 180px;
+    padding-right: 180px;
+
+}
+
+.popular-courses {
+    margin: 0px 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* .popular-courses h1{
+    
+} */
+
+.popular-courses-card {
+    display: flex;
+
+    width: 600px;
+    height: 220px;
+    /* border: 1px solid grey; */
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px grey;
+    text-align: center;
+    text-align: justify;
+
+}
+
+.popular-courses-card img {
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+
+.popular-courses-text {
+    padding: 10px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+.popular-courses-div {
+    display: flex;
+    gap: 50px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+.popular-courses button {
+    margin-bottom: 50px;
+    background-color: rgb(43, 140, 179);
+    color: white;
+    font-size: larger;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 30px;
+    margin-left: 600px;
+    margin-top: 30px;
+}
+
+
+.elearning {
+    display: flex;
+    margin-left: 130px;
+    margin-right: 130px;
+    background-color: rgb(226, 242, 248);
+    height: 500px;
+}
+
+.elearning img {
+    height: 500px;
+    width: 600px;
+}
+
+.elearning-text {
+    margin: 80px 30px;
+    text-align: justify;
+
+}
+
+.elearning-num {
+    display: flex;
+    margin-top: 40px;
+    gap: 20px;
+
+}
+
+.elearning button {
+
+    margin-bottom: 50px;
+    background-color: rgb(43, 140, 179);
+    color: white;
+    font-size: larger;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 30px;
+
+    margin-top: 30px;
+
+}
+
+.readyto-join {
+    background-color: rgb(43, 140, 179);
+    display: flex;
+    margin-top: 100px;
+    margin-left: 130px;
+    margin-right: 130px;
+    color: white;
+    height: 200px;
+    margin-bottom: 60px;
+}
+
+.readyto-join-text {
+    margin: 40px 50px;
+
+    width: 60%;
+}
+
+.readyto-join button {
+
+    margin-bottom: 50px;
+    background-color: white;
+    color: rgb(43, 140, 179);
+    font-size: larger;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 30px;
+    margin-left: 80px;
+    margin-top: 30px;
+    margin-top: 90px;
+
+}
+
+.success-student {
+    margin-left: 120px;
+}
+
+.success-student-img {
+    margin-left: 40px;
+  
+}
+
+.success-student img {
+    /* margin-left: 30px; */
+}
+
+.success-student p {
+    width: 600px;
+}
+
+.success-student button {
+    margin-bottom: 50px;
+    background-color: rgb(43, 140, 179);
+    color: white;
+    font-size: larger;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 30px;
+    margin-left: 600px;
+    margin-top: 40px;
+
+}
+
+.company {
+    margin-left: 120px;
+    text-align: center;
+}
+
+.company-img {
+    margin-top: 25px;
+}
+
+
+.company-img img {
+
+
+
+    margin-left: 40px;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 200px;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+
+.freqntlyQuestion {
+    margin: 120px;
+}
+
+
+@media only screen and (max-width: 576px) {
+
+    .popular-courses-div {
+        display: flex;
+
+        flex-direction: column;
+    }
+
+    .popular-courses-card img {
+        height: 302px;
+        width: 302px;
+        margin: 10px;
+    }
+
+    .popular-courses-card {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        /* border: 1px solid grey; */
+        border-radius: 5px;
+        box-shadow: 2px 2px 10px grey;
+        text-align: center;
+        text-align: justify;
+        justify-content: center;
+        align-items: center;
+        margin-left: -50px;
+
+    }
+
+    .elearning {
+        flex-direction: column;
+        height: 1050px;
+width: 100%;
+    }
+    .readyto-join{
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+    .success-student-img{
+        flex-direction: column;
+        
+    }  
+    .success-student-img img{
+        margin-top: 5px;
+    }
+    .company{
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+
+    .popular-courses-div {
+        display: flex;
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .success-student-img{
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+       gap: 2px;
+    } 
+    .success-student-img img{
+        margin: 5px;
+    }
+    .readyto-join{
+        margin: 30px;
+        height: 100%;
+        width: 100%;
+    }
+}
